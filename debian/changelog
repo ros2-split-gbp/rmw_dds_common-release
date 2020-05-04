@@ -1,0 +1,14 @@
+ros-foxy-rmw-dds-common (0.1.0-2focal) focal; urgency=high
+
+  * Export targets in addition to include directories / libraries (#15 <https://github.com/ros2/rmw_dds_common/issues/15>)
+  * Increasing code coverage (#14 <https://github.com/ros2/rmw_dds_common/issues/14>)
+  * security-context -> enclave (#13 <https://github.com/ros2/rmw_dds_common/issues/13>)
+  * Make rmw_dds_common use rosidl_generator_interfaces normally (#12 <https://github.com/ros2/rmw_dds_common/issues/12>)
+  * Changed rosidl_generator_cpp with rosidl_runtime_cpp (#10 <https://github.com/ros2/rmw_dds_common/issues/10>)
+  * Fix windows warning (#7 <https://github.com/ros2/rmw_dds_common/issues/7>)
+  * First implementation (#4 <https://github.com/ros2/rmw_dds_common/issues/4>)
+  * Contributors: Alejandro Hernández Cordero, Dirk Thomas, Ivan Santiago Paunovic, Mikael Arguedas
+
+ -- Ivan Paunovic <ivanpauno@ekumenlabs.com>  Sat, 25 Apr 2020 07:00:00 -0000
+
+
