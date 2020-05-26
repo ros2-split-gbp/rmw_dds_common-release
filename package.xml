@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rmw_dds_common</name>
-  <version>0.1.0</version>
+  <version>1.0.0</version>
   <description>Define a common interface between DDS implementations of ROS middleware.</description>
   <maintainer email="ivanpauno@ekumenlabs.com">Ivan Paunovic</maintainer>
   <license>Apache License 2.0</license>
@@ -21,6 +21,7 @@
   <test_depend>ament_cmake_gmock</test_depend>
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+  <test_depend>osrf_testing_tools_cpp</test_depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 
