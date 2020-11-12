@@ -2,14 +2,19 @@
 Changelog for package rmw_dds_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.2 (2020-11-11)
+1.1.0 (2020-11-11)
 ------------------
-* Update QD links to Foxy
+* Create a utility function to limit rmw_time_t to 32-bit values (`#37 <https://github.com/ros2/rmw_dds_common/issues/37>`_)
+* Update maintainers (`#34 <https://github.com/ros2/rmw_dds_common/issues/34>`_)
 * Updated performance section QD (`#30 <https://github.com/ros2/rmw_dds_common/issues/30>`_)
 * Update Quality Declaration to QL2 (`#31 <https://github.com/ros2/rmw_dds_common/issues/31>`_)
-* Add fault injection macro unit tests (`#27 <https://github.com/ros2/rmw_dds_common/issues/27>`_)
 * Added benchmark test to rmw_dds_common (`#29 <https://github.com/ros2/rmw_dds_common/issues/29>`_)
-* Contributors: Alejandro Hernández Cordero, Michel Hidalgo, Stephen Brawner
+* Fix potential memory leak (`#28 <https://github.com/ros2/rmw_dds_common/issues/28>`_)
+* Add fault injection macro unit tests (`#27 <https://github.com/ros2/rmw_dds_common/issues/27>`_)
+* Fixed some doxygen warnings (`#26 <https://github.com/ros2/rmw_dds_common/issues/26>`_)
+* Update Quality Declaration to QL3 (`#24 <https://github.com/ros2/rmw_dds_common/issues/24>`_)
+* Update QD and documentation (`#23 <https://github.com/ros2/rmw_dds_common/issues/23>`_)
+* Contributors: Alejandro Hernández Cordero, Chen Lihui, Ivan Santiago Paunovic, Michael Jeronimo, Michel Hidalgo, Stephen Brawner
 
 1.0.1 (2020-06-01)
 ------------------
