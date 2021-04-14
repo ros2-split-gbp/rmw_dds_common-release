@@ -32,10 +32,7 @@ rosidl_generate_interfaces(
 
 add_library(${PROJECT_NAME}_library SHARED
   src/gid_utils.cpp
-  src/graph_cache.cpp
-  src/qos.cpp
-  src/time_utils.cpp)
-
+  src/graph_cache.cpp)
 set_target_properties(${PROJECT_NAME}_library
   PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
 ament_target_dependencies(${PROJECT_NAME}_library
@@ -80,8 +77,7 @@ if(BUILD_TESTING)
 
   find_package(performance_test_fixture REQUIRED)
   # Give cppcheck hints about macro definitions coming from outside this package
-  get_target_property(ament_cmake_cppcheck_ADDITIONAL_INCLUDE_DIRS performance_test_fixture::performance_test_fixture
-    INTERFACE_INCLUDE_DIRECTORIES)
+  get_target_property(ament_cmake_cppcheck_ADDITIONAL_INCLUDE_DIRS performance_test_fixture::performance_test_fixture INTERFACE_INCLUDE_DIRECTORIES)
 
   ament_add_gmock(test_graph_cache test/test_graph_cache.cpp)
   if(TARGET test_graph_cache)
@@ -92,16 +88,6 @@ if(BUILD_TESTING)
   ament_add_gmock(test_gid_utils test/test_gid_utils.cpp)
   if(TARGET test_gid_utils)
     target_link_libraries(test_gid_utils ${PROJECT_NAME}_library)
-  endif()
-
-  ament_add_gmock(test_qos test/test_qos.cpp)
-  if(TARGET test_qos)
-    target_link_libraries(test_qos ${PROJECT_NAME}_library)
-  endif()
-
-  ament_add_gmock(test_time_utils test/test_time_utils.cpp)
-  if(TARGET test_time_utils)
-    target_link_libraries(test_time_utils ${PROJECT_NAME}_library)
   endif()
 
   add_performance_test(benchmark_graph_cache test/benchmark/benchmark_graph_cache.cpp)

@@ -2,37 +2,20 @@
 Changelog for package rmw_dds_common
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.2.1 (2021-04-06)
+1.0.3 (2021-04-14)
 ------------------
-* Fix one more instance of index.ros.org. (`#49 <https://github.com/ros2/rmw_dds_common/issues/49>`_)
-* updating quality declaration links (re: `ros2/docs.ros2.org#52 <https://github.com/ros2/docs.ros2.org/issues/52>`_) (`#46 <https://github.com/ros2/rmw_dds_common/issues/46>`_)
-* Contributors: Chris Lalancette, shonigmann
+* Update quality declaration links (re: `ros2/docs.ros2.org#52 <https://github.com/ros2/docs.ros2.org/issues/52>`_) (`#47 <https://github.com/ros2/rmw_dds_common/issues/47>`_)
+* Update QD to QL 1 (`#39 <https://github.com/ros2/rmw_dds_common/issues/39>`_)
+* Contributors: Simon Honigmann, Stephen Brawner
 
-1.2.0 (2021-02-28)
+1.0.2 (2020-11-11)
 ------------------
-* Add function for checking QoS profile compatibility (`#45 <https://github.com/ros2/rmw_dds_common/issues/45>`_)
-* Shorten some excessively long lines of CMake (`#44 <https://github.com/ros2/rmw_dds_common/issues/44>`_)
-* Fix test_graph_cache ASAN errors (`#41 <https://github.com/ros2/rmw_dds_common/issues/41>`_) (`#42 <https://github.com/ros2/rmw_dds_common/issues/42>`_)
-* Contributors: Jacob Perron, Scott K Logan, y-okumura-isp
-
-1.1.1 (2020-12-10)
-------------------
-* Update QD to QL 1 (`#38 <https://github.com/ros2/rmw_dds_common/issues/38>`_)
-* Contributors: Stephen Brawner
-
-1.1.0 (2020-11-11)
-------------------
-* Create a utility function to limit rmw_time_t to 32-bit values (`#37 <https://github.com/ros2/rmw_dds_common/issues/37>`_)
-* Update maintainers (`#34 <https://github.com/ros2/rmw_dds_common/issues/34>`_)
+* Update QD links to Foxy
 * Updated performance section QD (`#30 <https://github.com/ros2/rmw_dds_common/issues/30>`_)
 * Update Quality Declaration to QL2 (`#31 <https://github.com/ros2/rmw_dds_common/issues/31>`_)
-* Added benchmark test to rmw_dds_common (`#29 <https://github.com/ros2/rmw_dds_common/issues/29>`_)
-* Fix potential memory leak (`#28 <https://github.com/ros2/rmw_dds_common/issues/28>`_)
 * Add fault injection macro unit tests (`#27 <https://github.com/ros2/rmw_dds_common/issues/27>`_)
-* Fixed some doxygen warnings (`#26 <https://github.com/ros2/rmw_dds_common/issues/26>`_)
-* Update Quality Declaration to QL3 (`#24 <https://github.com/ros2/rmw_dds_common/issues/24>`_)
-* Update QD and documentation (`#23 <https://github.com/ros2/rmw_dds_common/issues/23>`_)
-* Contributors: Alejandro Hernández Cordero, Chen Lihui, Ivan Santiago Paunovic, Michael Jeronimo, Michel Hidalgo, Stephen Brawner
+* Added benchmark test to rmw_dds_common (`#29 <https://github.com/ros2/rmw_dds_common/issues/29>`_)
+* Contributors: Alejandro Hernández Cordero, Michel Hidalgo, Stephen Brawner
 
 1.0.1 (2020-06-01)
 ------------------
