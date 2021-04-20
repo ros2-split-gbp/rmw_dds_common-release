@@ -1,1 +1,1 @@
-{"base": "cfcf844", "parent": "debian/rolling/rmw_dds_common", "previous": "9b50f59", "trim": "", "trimbase": ""}
+{"base": "c2b86f6", "parent": "debian/galactic/rmw_dds_common", "previous": "de80769", "trim": "", "trimbase": ""}
