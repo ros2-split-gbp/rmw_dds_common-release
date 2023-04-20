@@ -1,0 +1,12 @@
+Source: ros-iron-rmw-dds-common
+Section: misc
+Priority: optional
+Maintainer: Ivan Paunovic <ivanpauno@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-cmake-gmock <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-osrf-testing-tools-cpp <!nocheck>, ros-iron-performance-test-fixture <!nocheck>, ros-iron-rcpputils, ros-iron-rcutils, ros-iron-rmw, ros-iron-rosidl-default-generators, ros-iron-rosidl-runtime-c, ros-iron-rosidl-runtime-cpp, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-rmw-dds-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-rcpputils, ros-iron-rcutils, ros-iron-rmw, ros-iron-rosidl-default-runtime, ros-iron-rosidl-runtime-c, ros-iron-rosidl-runtime-cpp, ros-iron-ros-workspace
+Description: Define a common interface between DDS implementations of ROS middleware.
